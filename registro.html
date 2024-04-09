@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta charset="UTF.8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>Pagina de registro</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+            <title>Informacion personal</title>
+        <nav>
+            <center>
+            <a href="pagina.html">Inicio</a>
+            <a href="servicios.html">servicios</a>
+            <a href="registro.html">Registro</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            </center>
+        </nav>
+        <p>
+            <!--<h1><b>Informacion personal</b></h1>-->
+            </p>
+            <div class="Principal">
+                <form action="Resultado.html" method="get" class="Formulario">
+                    <fieldset class="Borde">
+                        <!--<legend>Datos personales</legend>-->
+                        <h1><b>Informacion personal</b></h1>
+                        <p>
+                            <label>
+                                Saludo
+                                <br />
+                                <select name="Saludo" id="Salution" class="Entrada">
+                                    <option>--None--</option>
+                                    <option>Mr.</option>
+                                    <option>Ms.</option>
+                                    <option>Mrs.</option>
+                                    <option>Dr.</option>
+                                    <option>Prof.</option>
+                                </select>
+                            </label>
+                        </p>
+        
+                        <p>
+                            <label>Nombre :
+                                <input name="Nombre" id="firstName" class="Entrada" placeholder="Nombre"/>
+                            </label>
+                        </p>
+        
+                        <p>
+                            <label>Apellidos :
+                                <input name="Apellidos"  id="lastName" class="Entrada" placeholder="Apellidos"/>
+                            </label>
+                        </p>
+        
+                        <p>
+                            Genero :
+                            <label><input type="radio" name="Genero" value="Masculino"  id="Gender" class="Genero"/>
+                                Masculino
+                            </label>
+                            <label><input type="radio" name="Genero" value="Femenino" id="Gender"  class="Genero"/>
+                                Femenino
+                            </label>
+                            <label><input type="radio" name="Genero" value="Binario" id="Gender"  class="Genero"/>
+                                Binario
+                            </label>
+                        </p>
+        
+                        <p>
+                            <label>Email:
+                                <input type="email" name="email" id="email" class="Entrada" placeholder="E-mail"/>
+                            </label>
+                        </p>
+        
+                        <p>
+                            <label>Contraseña :
+                                <input type="password" name="Contraseña" id="Contraseá" class="Entrada" placeholder="Contraseña"/>
+                            </label>
+                        </p>
+        
+                        <p>
+                            <label>Fecha de nacimiento :
+                                <input type="date" name="Nacimiento" id="Birthdate" class="Entrada">
+                            </label>
+                        </p>
+        
+                        <p>
+                            <label>
+                                Domicilio :
+                                <br />
+                                <textarea placeholder="Domicilio" name="address" cols="4" rows="4" class="Entrada">
+                                  </textarea>
+                            </label>
+                        </p>
+        
+                        <p>
+                            <button type="submit" class="Enviar">Submit</button>
+                        </p>
+        
+        </form>
+    </body>
+</html>
